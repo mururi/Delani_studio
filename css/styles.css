@@ -39,3 +39,12 @@
 #message {
   height: 245px;
 }
+
+.form-styling {
+  background: transparent;
+  border-radius: 0;
+}
+
+.form-styling::placeholder {
+  color: white;
+}
