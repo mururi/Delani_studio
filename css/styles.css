@@ -30,3 +30,12 @@
 .hover {
   display: none;
 }
+
+.contact-us {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-size: cover;
+}
+
+#message {
+  height: 245px;
+}
