@@ -14,3 +14,15 @@
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
 }
+
+#design-description {
+  display: none;
+}
+
+#dev-description {
+  display: none;
+}
+
+#prod-description {
+  display: none;
+}
