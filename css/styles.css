@@ -26,3 +26,7 @@
 #prod-description {
   display: none;
 }
+
+.hover {
+  display: none;
+}
