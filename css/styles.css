@@ -48,3 +48,7 @@
 .form-styling::placeholder {
   color: white;
 }
+
+#submit {
+  border-radius: 0;
+}
