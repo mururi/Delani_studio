@@ -15,7 +15,7 @@ This is a modern design studio landing page that features an about us section, s
 Ensure that your device of choice has a browser installed.
 Click the link provided below to view the site.
 
-https://mururi.github.io/
+https://mururi.github.io/Delani_studio/
 
 ## Technologies Used 
 * HTML - This was used to build the structure of the web page.
