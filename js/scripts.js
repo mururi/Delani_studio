@@ -21,13 +21,23 @@ $(document).ready(function() {
   // }, function() {
   //   $(".portfolio-image").removeClass(".portfolio-image--opacity");
   // });
-  $(".portfolio-item").hover(function() {
-    $(".text-overlay").removeClass("hover-hidden");
-    $(".text-overlay").addClass("hover");
-    $(".portfolio-image").addClass("portfolio-image--opacity");
+  $(".portfolio-item-1").hover(function() {
+    $(".text-overlay-1").removeClass("hover-hidden");
+    $(".text-overlay-1").addClass("hover");
+    $(".portfolio-image-1").addClass("portfolio-image--opacity");
   }, function() {
-    $(".text-overlay").removeClass("hover");
-    $(".text-overlay").addClass("hover-hidden");
-    $(".portfolio-image").removeClass("portfolio-image--opacity");
+    $(".text-overlay-1").removeClass("hover");
+    $(".text-overlay-1").addClass("hover-hidden");
+    $(".portfolio-image-1").removeClass("portfolio-image--opacity");
+  });
+
+  $(".portfolio-item-2").hover(function() {
+    $(".text-overlay-2").removeClass("hover-hidden");
+    $(".text-overlay-2").addClass("hover");
+    $(".portfolio-image-2").addClass("portfolio-image--opacity");
+  }, function() {
+    $(".text-overlay-2").removeClass("hover");
+    $(".text-overlay-2").addClass("hover-hidden");
+    $(".portfolio-image-2").removeClass("portfolio-image--opacity");
   });
 });
