@@ -4,7 +4,7 @@
 ## Description 
 This is a modern design studio landing page that features an about us section, services section, a modern portfolio layout section and a contacts form.
 
-[Delani Studio Landing Page](/assets/Delani Studio.jpg)
+![Delani Studio Landing Page](/assets/Delani_Studio.jpg)
 
 ## Setup/Installation Requirements 
 ### Requirements
