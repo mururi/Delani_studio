@@ -38,6 +38,7 @@ $(document).ready(function() {
     if (name && email && message) {
       alert(`Hey ${name}. We have received your message. Thank you for reaching out to us`);
     }
-    $("#contact-form").reset();
+    // $("#contact-form").reset();
+    document.getElementById("contact-form").reset();
   });
 });
