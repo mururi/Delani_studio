@@ -27,4 +27,17 @@ $(document).ready(function() {
       $(".portfolio-image-" + i).removeClass("portfolio-image--opacity");
     });
   }
+
+  //form validation and message
+  $("#contact-form").submit(function( event ) {
+    event.preventDefault();
+    let name = $("#name").val();
+    let email = $("#email").val();
+    let message = $("#message").val();
+
+    if (name && email && message) {
+      alert(`Hey ${name}. We have received your message. Thank you for reaching out to us`);
+    }
+    $("#contact-form").reset();
+  });
 });
